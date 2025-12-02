@@ -23,4 +23,4 @@ Below is the structure of the DOM:
 
 \<li data-index="2" class="gr-body__content--item" style="min-height: auto; padding-top: 0px; box-sizing: border-box;">\<div class="gr-body__packet">\<div class="gr-body__packet--img" data-width="1582" data-height="2048" style="display: inline-block; width: 793px; height: 1026.59px;">\<img crossorigin="Anonymous" src="SOME BAIDU CDN" class="gr-body__item--img"></div></div></li>
 
-Noticed as well that organically, if you navigate the page, alongside every "page" load in the embedded viewer, that 3 other telemetry urls we being triggered. In the concern of being rate limited, I didn't want to
+Noticed as well that organically, if you navigate the page, alongside every "page" load in the embedded viewer, 3 other telemetry urls were being triggered. In the concern of being rate limited, due to my request to the CDN not being paired with telemetry, I set the download to 2000ms.
